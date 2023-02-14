@@ -75,7 +75,9 @@ class TowerColumn extends StatelessWidget {
                                       )
                                     : const SizedBox();
                               },
-                            )
+                            ),  const SizedBox(
+                              height: 24,
+                            ),
                           ],
                         )),
                   ),
